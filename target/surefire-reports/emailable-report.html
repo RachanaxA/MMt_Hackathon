@@ -1,0 +1,212 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">9</td><td class="num">110,800</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="9">testCases.TC04_SenderDetailsTest</td><td><a href="#m0">getAlertMsgTest</a></td><td rowspan="1">1707717177691</td><td rowspan="1">10526</td></tr><tr class="failedeven"><td><a href="#m1">getNumberOfPeopleTest</a></td><td rowspan="1">1707717189751</td><td rowspan="1">10061</td></tr><tr class="failedeven"><td><a href="#m2">goToHotelsTest</a></td><td rowspan="1">1707717188616</td><td rowspan="1">687</td></tr><tr class="failedeven"><td><a href="#m3">inputSenderandrecipientsDetailsTest</a></td><td rowspan="1">1707717167278</td><td rowspan="1">10083</td></tr><tr class="failedeven"><td><a href="#m4">inputTimeTest</a></td><td rowspan="1">1707717143200</td><td rowspan="1">2088</td></tr><tr class="failedeven"><td><a href="#m5">selectGiftTest</a></td><td rowspan="1">1707717155893</td><td rowspan="1">651</td></tr><tr class="failedeven"><td><a href="#m6">selectLowestPriceTest</a></td><td rowspan="1">1707717152982</td><td rowspan="1">2547</td></tr><tr class="failedeven"><td><a href="#m7">selectSUVTest</a></td><td rowspan="1">1707717150214</td><td rowspan="1">2418</td></tr><tr class="failedeven"><td><a href="#m8">selectWeddingCardTest</a></td><td rowspan="1">1707717156868</td><td rowspan="1">10051</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">testCases.TC04_SenderDetailsTest</td><td><a href="#m9">clickOnCabsTest</a></td><td rowspan="1">1707717132736</td><td rowspan="1">5432</td></tr><tr class="passedeven"><td><a href="#m10">clickOnSearchTest</a></td><td rowspan="1">1707717145798</td><td rowspan="1">3958</td></tr><tr class="passedeven"><td><a href="#m11">inputDateTest</a></td><td rowspan="1">1707717142339</td><td rowspan="1">402</td></tr><tr class="passedeven"><td><a href="#m12">inputToCityTest</a></td><td rowspan="1">1707717140270</td><td rowspan="1">1534</td></tr><tr class="passedeven"><td><a href="#m13">inputfromCityTest</a></td><td rowspan="1">1707717138696</td><td rowspan="1">1170</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testCases.TC04_SenderDetailsTest#getAlertMsgTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.nio.file.AccessDeniedException: C:\Users\2303452\eclipse-workspace\hackathon\screenshots\MyScreenshots\7.AlertMessage.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:811)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:838)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:746)
+	at pageObjects.BasePage.screenShot(BasePage.java:37)
+	at pageObjects.OB4_SenderDetails.getAlertMsg(OB4_SenderDetails.java:88)
+	at testCases.TC04_SenderDetailsTest.getAlertMsgTest(TC04_SenderDetailsTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC04_SenderDetailsTest#getNumberOfPeopleTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;hsw_inputBox roomGuests&apos;]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3443c16e706e8922ba1d392c2b90a5a, findElement {using=xpath, value=//div[@class=&apos;hsw_inputBox roomGuests&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303576\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56734/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3443c16e706e8922ba1d392c2b90a5a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at pageObjects.BasePage.fluentWait(BasePage.java:66)
+	at pageObjects.OB4_SenderDetails.getNumberOfPeople(OB4_SenderDetails.java:102)
+	at testCases.TC04_SenderDetailsTest.getNumberOfPeopleTest(TC04_SenderDetailsTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC04_SenderDetailsTest#goToHotelsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.nio.file.AccessDeniedException: C:\Users\2303452\eclipse-workspace\hackathon\screenshots\MyScreenshots\8.HotelsPage.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:811)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:838)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:746)
+	at pageObjects.BasePage.screenShot(BasePage.java:37)
+	at pageObjects.OB4_SenderDetails.goToHotels(OB4_SenderDetails.java:97)
+	at testCases.TC04_SenderDetailsTest.goToHotelsTest(TC04_SenderDetailsTest.java:33)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC04_SenderDetailsTest#inputSenderandrecipientsDetailsTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;deliver__wrap&apos;])[1]//li[2]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3443c16e706e8922ba1d392c2b90a5a, findElement {using=xpath, value=(//div[@class=&apos;deliver__wrap&apos;])[1]//li[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303576\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56734/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3443c16e706e8922ba1d392c2b90a5a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:470)
+	at pageObjects.OB4_SenderDetails.inputSenderandrecipientsDetails(OB4_SenderDetails.java:54)
+	at testCases.TC04_SenderDetailsTest.inputSenderandrecipientsDetailsTest(TC04_SenderDetailsTest.java:15)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC04_SenderDetailsTest#inputTimeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.nio.file.AccessDeniedException: C:\Users\2303452\eclipse-workspace\hackathon\screenshots\MyScreenshots\1.TripDetails.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:811)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:838)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:746)
+	at pageObjects.BasePage.screenShot(BasePage.java:37)
+	at pageObjects.OB1_MmtHome.inputTime(OB1_MmtHome.java:92)
+	at testCases.TC01_MmtHomeTest.inputTimeTest(TC01_MmtHomeTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC04_SenderDetailsTest#selectGiftTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.nio.file.AccessDeniedException: C:\Users\2303452\eclipse-workspace\hackathon\screenshots\MyScreenshots\4.GiftCards.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:811)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:838)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:746)
+	at pageObjects.BasePage.screenShot(BasePage.java:37)
+	at pageObjects.OB2_MmtResultPage.selectGift(OB2_MmtResultPage.java:59)
+	at testCases.TC02_MmtResultPageTest.selectGiftTest(TC02_MmtResultPageTest.java:34)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC04_SenderDetailsTest#selectLowestPriceTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.nio.file.AccessDeniedException: C:\Users\2303452\eclipse-workspace\hackathon\screenshots\MyScreenshots\3.LowestPrice.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:811)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:838)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:746)
+	at pageObjects.BasePage.screenShot(BasePage.java:37)
+	at pageObjects.OB2_MmtResultPage.selectLowestPrice(OB2_MmtResultPage.java:50)
+	at testCases.TC02_MmtResultPageTest.selectLowestPriceTest(TC02_MmtResultPageTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC04_SenderDetailsTest#selectSUVTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.nio.file.AccessDeniedException: C:\Users\2303452\eclipse-workspace\hackathon\screenshots\MyScreenshots\2.SUVFilter.png
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:171)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:811)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:838)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:746)
+	at pageObjects.BasePage.screenShot(BasePage.java:37)
+	at pageObjects.OB2_MmtResultPage.selectSUV(OB2_MmtResultPage.java:40)
+	at testCases.TC02_MmtResultPageTest.selectSUVTest(TC02_MmtResultPageTest.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC04_SenderDetailsTest#selectWeddingCardTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class=&apos;card__data&apos;])[1]&quot;}
+  (Session info: chrome=120.0.6099.130)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3443c16e706e8922ba1d392c2b90a5a, findElement {using=xpath, value=(//div[@class=&apos;card__data&apos;])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\2303576\AppData\Lo...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56734}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56734/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3443c16e706e8922ba1d392c2b90a5a
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy27.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:204)
+	at pageObjects.BasePage.fluentWait(BasePage.java:66)
+	at pageObjects.OB3_GiftCards.selectWeddingCard(OB3_GiftCards.java:27)
+	at testCases.TC03_GiftCardsTest.selectWeddingCardTest(TC03_GiftCardsTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC04_SenderDetailsTest#clickOnCabsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.TC04_SenderDetailsTest#clickOnSearchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.TC04_SenderDetailsTest#inputDateTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.TC04_SenderDetailsTest#inputToCityTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.TC04_SenderDetailsTest#inputfromCityTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
