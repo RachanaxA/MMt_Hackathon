@@ -17,7 +17,7 @@ public class OB3_GiftCards extends BasePage{
 	String filePath=System.getProperty("user.dir")+"/testData/HackathonData.xlsx";
 	
 	//locators
-	@FindBy(xpath="(//div[@class='card__data'])[1]") WebElement WeddingcardEle;
+	@FindBy(xpath="(//a[@class='appendBottom5 blackText'])[2]") WebElement WeddingcardEle;
 	@FindBy(xpath="(//div[@class='card__data'])[1]/div/h3") WebElement WeddingcardString;
 	
 	
