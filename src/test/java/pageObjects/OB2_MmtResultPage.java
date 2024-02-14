@@ -25,6 +25,8 @@ public class OB2_MmtResultPage extends OB1_MmtHome{
 	@FindBy(xpath="//span[@class='chNavText']") WebElement moreEle;
 	@FindBy(xpath="(//a[@class='appendBottom5 blackText'])[2]") WebElement giftCardEle;
 	
+//	@FindBy(xpath="(//a[contains(text(),'')])[12]") WebElement giftCardEle;
+	
 	
 	
 

@@ -6,8 +6,7 @@
 	<listener class-name="utilities.ExtentReportManager"></listener>
 </listeners>
 	
-<parameter name="os" value="windows"></parameter>
-<parameter name="browser" value="chrome"></parameter>
+<parameter name="os" value="windows"></parameter><parameter name="browser" value="chrome"></parameter>
   <test thread-count="2" name="Test">
     <classes>
       <class name="testCases.TC04_SenderDetailsTest"/>
